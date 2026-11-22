@@ -70,8 +70,8 @@ The **[Tulu transliterator](https://prahladtantry.github.io/tulu-transliterator/
 
 AccTantra is for ASCII fonts, where the text is stored as Latin characters. If you want to store Tulu as real Unicode text, the same typing logic is available as a keyboard:
 
-- **[AccTantra_Unicode](https://github.com/PrahladTantry/AccTantra_Unicode)** is a Keyman keyboard for the Tulu-Tigalari script, following the AccTantra key logic.
-- **[Mallige_unicode](https://github.com/PrahladTantry/Mallige_unicode)** is a Unicode font for the Tulu-Tigalari script, to display what the keyboard types.
+- **[AccTantra_Unicode](https://github.com/TantryTuluFonts/AccTantra_Unicode)** is a Keyman keyboard for the Tulu-Tigalari script, following the AccTantra key logic.
+- **[Mallige_unicode](https://github.com/TantryTuluFonts/Mallige_unicode)** is a Unicode font for the Tulu-Tigalari script, to display what the keyboard types.
 
 ## Goals
 
@@ -81,9 +81,15 @@ AccTantra is for ASCII fonts, where the text is stored as Latin characters. If y
 - **Support preservation.** Help document, study and revitalise the language in the digital era.
 - **Enable cultural expression.** Give Tulu speakers a way to write their literature and traditions in their own script.
 
+## License
+
+AccTantra is licensed under the **SIL Open Font License, Version 1.1**. You may use, study, modify and redistribute it freely, provided it is not sold on its own and derivative works stay under the same license. The full text is in [OFL.txt](OFL.txt), and a FAQ is at <https://openfontlicense.org>.
+
+Copyright (c) 2025-2026, Prahlad Prasad Tantry.
+
 ## Contributing
 
-AccTantra is meant to be extended by the community. Corrections, additional fonts that follow the standard, and documentation fixes are all welcome. Please [open an issue](https://github.com/PrahladTantry/AccTantra/issues) to discuss a change.
+AccTantra is meant to be extended by the community. Corrections, additional fonts that follow the standard, and documentation fixes are all welcome. Please [open an issue](https://github.com/TantryTuluFonts/AccTantra/issues) to discuss a change.
 
 ## Author
 

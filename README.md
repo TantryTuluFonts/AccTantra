@@ -24,7 +24,7 @@ AccTantra fixes this at the keyboard level. Because every font follows the same 
 2. Choose that font in your editor or design tool.
 3. Type using the keys in the [key chart](docs/KEYMAP.md).
 
-**Example:** type `EAamA nEma narayNay`, and any AccTantra font shows *Om namo Narayanaya*:
+**Example:** type `EAamAX nEma narayNay`, and any AccTantra font shows *Om namo Narayanaya*:
 
 ![Om namo Narayanaya in four AccTantra fonts](assets/example-om-namo-narayanaya.png)
 
@@ -43,22 +43,28 @@ The key chart above shows the same keys in all four, so you can compare how each
 
 ## How the typing works
 
-- **Letters on phonetic keys.** Keys are assigned by sound. Consonants sit on the Latin letter they most resemble, and aspirated or related consonants use the Shift version of the same key.
-- **The virama (`A`).** The `A` key gives the virama, which cancels a consonant's inherent vowel. It also acts as a placeholder for a consonant, so that vowel signs can attach to it to form an independent vowel.
-- **Conjuncts.** To join two consonants, type the first consonant, `A`, then the second. For example `kAt`. The font substitutes the joined shape automatically. See the [conjunct reference](docs/CONJUNCTS.md) for exactly which pairs each font supports.
-- **Two-part vowels.** Some vowels are written around the consonant. In `nEma`, the `E` is typed before the consonant `m` and the `a` after it, and together they make the vowel *o*, giving *na-mo*.
-- **Digits.** The digit keys `0` to `9` give Tulu-script numerals.
-- **Other keys.** Punctuation and unassigned keys produce ordinary characters.
+- **Letters on phonetic keys.** Consonants sit on the Latin letter they most resemble, and aspirated or related consonants use the Shift version of the same key (`k` is *ka*, `K` is *kha*). Keys are case-sensitive.
+- **Inherent vowel.** A consonant alone already carries the short *a*. Other vowels are signs: after the consonant (`a` gives *ā*, `i`, `I`, `u`, `U`, `R`), before it (`e`, `E`, `o`, `O`), or around it (*o* and *ō* are `e...a` and `E...a`).
+- **Independent vowels.** A vowel on its own is built on `A`, for example `Aa` is *ā* and `EAa` is *ō*.
+- **The virama.** `A` after a consonant is the **chandravirama**, and `AX` is the **suryavirama** (the looped form, used on *k g ṭ ṇ t d n m h bh ḷ r*). Darage and Mallige draw the loop.
+- **Conjuncts.** To join consonants, type consonant, `A`, consonant: `kAt`. The font substitutes the joined shape. See the [conjunct reference](docs/CONJUNCTS.md) for what each font supports.
+- **Repha and doubling.** `f` after a consonant puts an *r* above it (`kmf` is *karma*), and `F` doubles a consonant.
+- **Marks.** `M` is anusvara, `H` is visarga, and `MM` is candrabindu.
+- **Digits.** The keys `0` to `9` give Tulu-script numerals.
 
-For the full key-by-key reference, see **[docs/KEYMAP.md](docs/KEYMAP.md)**.
+The complete reference, every key with its IAST, Devanagari, Kannada and Malayalam equivalents, is in **[docs/KEYMAP.md](docs/KEYMAP.md)**.
+
+## Convert text
+
+The **[Tulu transliterator](https://prahladtantry.github.io/tulu-transliterator/)** converts between AccTantra text and IAST, Devanagari, Kannada or Malayalam in both directions. Use it to turn existing text into AccTantra keys, or to read AccTantra text in another script. It is also the reference implementation of this standard: the tables in the key map come from it.
 
 ## Documentation
 
 | Page | What it covers |
 |---|---|
-| [Key map](docs/KEYMAP.md) | Every key, grouped by letter class, with the visual chart |
+| [Key map](docs/KEYMAP.md) | Every key: consonants, vowels, signs, virama, marks, with the visual chart |
 | [Conjunct reference](docs/CONJUNCTS.md) | Which consonant pairs each font joins, generated from the fonts |
-| [Typing examples](docs/EXAMPLES.md) | Worked examples, keystroke by keystroke |
+| [Typing examples](docs/EXAMPLES.md) | Real words with their keys, rendered and converted |
 
 ## Typing real Unicode instead
 

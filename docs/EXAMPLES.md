@@ -1,37 +1,19 @@
 # Typing examples
 
-## Om namo Narayanaya
+Each example shows the word in IAST, the keys to press, and the same text in Devanagari, Kannada and Malayalam for comparison. The keys were produced and checked with the [Tulu transliterator](https://prahladtantry.github.io/tulu-transliterator/): paste any keys below into it and it converts them back.
 
-Keys to press:
+![Examples in Darage and Mallige](../assets/examples.png)
 
-```text
-EAamA nEma narayNay
-```
-
-Result in four AccTantra fonts:
-
-![Om namo Narayanaya in four AccTantra fonts](../assets/example-om-namo-narayanaya.png)
-
-### Keystroke by keystroke
-
-| Keys | Meaning |
-|---|---|
-| `E` `A` `a` | The vowel *o*, written with a sign before and a sign after the virama placeholder |
-| `m` `A` | *m* with the virama, a bare *m*. Together with the line above this is **Om** |
-| `n` | *na* |
-| `E` `m` `a` | *mo*: `E` before the consonant `m`, `a` after it |
-| `n` `a` | *nā* |
-| `r` `a` | *rā* |
-| `y` | *ya* |
-| `N` `a` | *ṇā* |
-| `y` | *ya* |
-
-Read together: **Om na-mo Nā-rā-ya-ṇā-ya**.
-
-## What this example shows
-
-- **The virama as a placeholder.** The independent vowel in *Om* is built on `A`, with vowel signs on either side.
-- **Two-part vowels.** *mo* is `E` before and `a` after the consonant.
-- **Long vowel after a consonant.** `a` after `n`, `r` and `N` gives *nā*, *rā* and *ṇā*.
-- **Shift keys.** `N` (Shift+n) is the retroflex *ṇ*, a different letter from the dental `n`.
-- **Font independence.** The same keys render in every AccTantra font; only the style changes.
+| Word | Note | Keys to press | Devanagari | Kannada | Malayalam |
+|---|---|---|---|---|---|
+| ōm namō nārāyaṇāya | Om namo Narayanaya (the example from the README) | `EAamAX nEma narayNay` | ओम् नमो नारायणाय | ಓಮ್ ನಮೋ ನಾರಾಯಣಾಯ | ഓമ് നമോ നാരായണായ |
+| tuḷu | Tulu | `tuLu` | तुळु | ತುಳು | തുളു |
+| tuḷunāḍu | Tulunadu | `tuLunawu` | तुळुनाडु | ತುಳುನಾಡು | തുളുനാഡു |
+| namaskāra | a greeting | `nmsAkar` | नमस्कार | ನಮಸ್ಕಾರ | നമസ്കാര |
+| śrī | a conjunct (ś + r) with a long vowel | `SArI` | श्री | ಶ್ರೀ | ശ്രീ |
+| karma | repha (r above) | `kmf` | कर्म | ಕರ್ಮ | കര്മ |
+| kṣatriya | a conjunct (k + ṣ) | `kAxtAriy` | क्षत्रिय | ಕ್ಷತ್ರಿಯ | ക്ഷത്രിയ |
+| vidyā | a conjunct (d + y) | `vidAya` | विद्या | ವಿದ್ಯಾ | വിദ്യാ |
+| paṭṭu | a doubled consonant | `pqAqu` | पट्टु | ಪಟ್ಟು | പട്ടു |
+| aiśvarya | a vowel, a conjunct and a repha | `eeASAvyf` | ऐश्वर्य | ಐಶ್ವರ್ಯ | ഐശ്വര്യ |
+| oṃ namaḥ śivāya | anusvara and visarga | `eAaM nmH Sivay` | ऒं नमः शिवाय | ಒಂ ನಮಃ ಶಿವಾಯ | ഒം നമഃ ശിവായ |

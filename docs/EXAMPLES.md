@@ -1,6 +1,6 @@
 # Typing examples
 
-Each example shows the word in IAST, the keys to press, and the same text in Devanagari, Kannada and Malayalam for comparison. The keys were produced and checked with the [Tulu transliterator](https://prahladtantry.github.io/tulu-transliterator/): paste any keys below into it and it converts them back.
+Each example shows the word in IAST, the keys to press, and the same text in Devanagari, Kannada and Malayalam for comparison. The keys were produced and checked with the [Tulu transliterator](https://tantrytulufonts.github.io/tulu-transliterator/): paste any keys below into it and it converts them back.
 
 ![Examples in Darage and Mallige](../assets/examples.png)
 

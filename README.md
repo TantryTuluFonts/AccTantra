@@ -56,7 +56,7 @@ The complete reference, every key with its IAST, Devanagari, Kannada and Malayal
 
 ## Convert text
 
-The **[Tulu transliterator](https://prahladtantry.github.io/tulu-transliterator/)** converts between AccTantra text and IAST, Devanagari, Kannada or Malayalam in both directions. Use it to turn existing text into AccTantra keys, or to read AccTantra text in another script. It is also the reference implementation of this standard: the tables in the key map come from it.
+The **[Tulu transliterator](https://tantrytulufonts.github.io/tulu-transliterator/)** converts between AccTantra text and IAST, Devanagari, Kannada or Malayalam in both directions. Use it to turn existing text into AccTantra keys, or to read AccTantra text in another script. It is also the reference implementation of this standard: the tables in the key map come from it.
 
 ## Documentation
 

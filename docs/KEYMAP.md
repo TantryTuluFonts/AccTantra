@@ -1,6 +1,6 @@
 # AccTantra key map
 
-This is the complete AccTantra key assignment for ASCII Tulu fonts. You type with a normal keyboard and the font draws the Tulu letters. Every table here is generated from the rules of the [Tulu transliterator](https://prahladtantry.github.io/tulu-transliterator/) (the "Mallige encoding"), which is the reference implementation of this scheme, so they always agree.
+This is the complete AccTantra key assignment for ASCII Tulu fonts. You type with a normal keyboard and the font draws the Tulu letters. Every table here is generated from the rules of the [Tulu transliterator](https://tantrytulufonts.github.io/tulu-transliterator/) (the "Mallige encoding"), which is the reference implementation of this scheme, so they always agree.
 
 The picture shows every letter and digit key and the glyph it gives in each AccTantra font (Darage, Mandara, Allige, Mallige, in that order):
 
@@ -140,6 +140,6 @@ The digit keys `0` to `9` show the Tulu-script numerals in the fonts. The transl
 
 ## Convert text
 
-The [Tulu transliterator](https://prahladtantry.github.io/tulu-transliterator/) converts between AccTantra text and IAST, Devanagari, Kannada or Malayalam, in both directions. It is the quickest way to check a spelling or to move existing text into AccTantra.
+The [Tulu transliterator](https://tantrytulufonts.github.io/tulu-transliterator/) converts between AccTantra text and IAST, Devanagari, Kannada or Malayalam, in both directions. It is the quickest way to check a spelling or to move existing text into AccTantra.
 
 See also: [Conjunct reference](CONJUNCTS.md) · [Typing examples](EXAMPLES.md)
